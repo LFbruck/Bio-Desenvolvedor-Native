@@ -35,7 +35,7 @@ export default function AppNavigator() {
                         let iconName;
 
                         if (route.name === 'Bio') {
-                            iconName = focused ? 'person' : 'person-outline';
+                            iconName = focused ? 'person' : 'person-outline';y
                         } else if (route.name === 'Projetos') {
                             iconName = focused ? 'code-working' : 'code-working-outline';
                         } else if (route.name === 'Contato') {
